@@ -1,33 +1,44 @@
 # My-Digital-Ocean
-JobPilot.AI is an intelligent job application automation tool designed to simplify and speed up the tedious process of job searching and applying. It empowers users to find and apply for relevant jobs across multiple platforms — such as LinkedIn, Indeed, GitHub Jobs, and other integrated APIs — with just one click.
+Here’s your **refined and professional project description** — rewritten to appeal to **both technical and non-technical audiences**, divided into **three clear sections**:
 
-Users can enter their professional details once (including CV/resume, skills, experience level, and preferred roles) and let AutoApply.AI handle the rest. The system automatically:
+---
 
-Fetches real-time job listings from multiple sources.
+## 🚀 JobPilot.AI — Automated Job Application Assistant**
 
-Filters and ranks the most relevant opportunities using AI.
+**JobPilot.AI** is an intelligent automation platform that streamlines the entire job search and application process. Instead of wasting hours filling repetitive forms, uploading the same CV, and rewriting cover letters, users simply set their preferences — such as job title, skills, location, and experience — and the agent handles everything.
 
-Generates tailored cover letters dynamically based on the job description.
+The system searches for relevant openings across **LinkedIn**, **Indeed**, **GitHub Jobs**, **Rozee.pk**, and other integrated APIs, tailors the user’s **CV and cover letter** according to each job’s requirements, and applies automatically. JobPilot.AI makes job hunting as effortless as setting your preferences once and clicking “Apply All.”
 
-Uploads the user’s CV and applies to the selected jobs automatically.
+---
 
+## ⚙️ **How It Works**
 
-This automation drastically reduces the time and effort candidates spend on repetitive tasks like job searching, form filling, and uploading the same documents across multiple platforms.
+1. **User Setup:** The user enters their details once (CV, experience, and role preferences).
+2. **Job Discovery:** The AI agent fetches job listings in real time via APIs (GitHub Jobs, Indeed, etc.). If APIs fail, it smartly falls back to **dummy data** for demos or offline usage.
+3. **AI-Powered Matching:** The system filters and ranks opportunities using AI — analyzing job descriptions to find the best match for the user’s skills.
+4. **Smart Personalization:** It dynamically **generates tailored cover letters** and chooses the most suitable CV version for each application.
+5. **Automated Application:** The platform applies automatically or on a schedule — turning hours of manual effort into a **one-click experience**.
 
-⚙️ Core Features:
+---
 
-🌍 Multi-platform job search integration: LinkedIn, Indeed, GitHub Jobs, and others via public APIs.
+## 💻 **Tech Stack & Architecture**
 
-🤖 AI-based job matching: Uses user skills, location, and experience to find relevant roles.
+JobPilot.AI is built using **TypeScript** and **Mastra Studio**, leveraging **OpenAI’s LLMs** for natural language understanding and content generation.
+It uses a **modular agent-tool architecture**:
 
-🧾 Automatic cover letter generation: AI crafts customized cover letters for each job.
+* 🧠 **AI Agents** handle workflow orchestration — reading job descriptions, analyzing requirements, and making application decisions.
+* 🧩 **Tools** like `jobSearchTool` and `applyForJob` execute actions such as fetching listings, generating content, and submitting applications.
+* ⚡ **Workflows** coordinate these steps — from job fetching to resume tailoring — ensuring a seamless automation pipeline.
+* 🌐 **APIs Integrated:** GitHub Jobs, Rozee.pk, Indeed, and LinkedIn (extendable via future endpoints).
+* 🧾 **Fallback Layer:** Uses `dummyJobs` data when live API responses are unavailable, ensuring reliability and smooth demos.
 
-📄 Smart CV uploader: Automatically attaches the right resume version per job application.
+---
 
-⚡ One-click apply: Users can review and apply instantly or let the bot auto-apply on schedule.
+### 💡 **In Short:**
 
-🧩 Fallback mode: Uses curated dummy data if no live jobs are fetched — perfect for demos or offline use.
+**JobPilot.AI** transforms job hunting from a repetitive manual task into an intelligent, automated process powered by AI — saving users time while improving the quality and precision of every application.
 
- Problem It Solves:
+---
 
-Manually searching and applying for jobs is time-consuming, repetitive, and inefficient. Candidates waste hours filling out similar forms, uploading the same CV, and writing new cover letters. JobPilot.AI eliminates this friction — making job hunting as simple as setting preferences and clicking once.
+Would you like me to make a **shorter version (around 150–200 words)** of this for your **hackathon README or submission form**?
+
