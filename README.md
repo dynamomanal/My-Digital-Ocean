@@ -1,9 +1,6 @@
-# My-Digital-Ocean
-Here’s your **refined and professional project description** — rewritten to appeal to **both technical and non-technical audiences**, divided into **three clear sections**:
 
----
 
-## 🚀 JobPilot.AI — Automated Job Application Assistant**
+## JobPilot.AI — Automated Job Application Assistant**
 
 **JobPilot.AI** is an intelligent automation platform that streamlines the entire job search and application process. Instead of wasting hours filling repetitive forms, uploading the same CV, and rewriting cover letters, users simply set their preferences — such as job title, skills, location, and experience — and the agent handles everything.
 
@@ -38,7 +35,5 @@ It uses a **modular agent-tool architecture**:
 
 **JobPilot.AI** transforms job hunting from a repetitive manual task into an intelligent, automated process powered by AI — saving users time while improving the quality and precision of every application.
 
----
 
-Would you like me to make a **shorter version (around 150–200 words)** of this for your **hackathon README or submission form**?
 
